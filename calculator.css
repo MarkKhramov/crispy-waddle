@@ -1,0 +1,63 @@
+.calculator{
+	display: grid;
+	grid-template-columns: 180px 60px 60px;
+	grid-template-rows: 60px 240px;
+	border-radius:20px;
+}
+
+.numberpad{
+	display:grid;
+	grid-template-columns: 60px 60px 60px;
+	grid-template-rows: 60px 60px 60px 60px;	
+	background-color:black;
+}
+.numberpad>button{
+       background-color: rgb(105,105,105);
+       font-weight: bold;
+       color: white;
+}
+.operatorpad{
+	display:grid;
+	grid-template-columns: 60px;
+	grid-template-rows: 60px 60px 60px 60px;
+	color:grey;
+	background-color:black;
+}
+.operatorpad>button{
+        color: white;
+	background-color:black;
+	font-weight: bold;
+}
+
+.calcinput{
+        display:grid;
+        grid-template-columns: 300px;	
+	grid-row-start: 1;
+	grid-row-end: 2;
+	grid-column-start:1;
+	grid-column-end: 4;
+	
+}
+.equalclear{
+	display:grid;
+	grid-template-columns: 60px;
+	grid-template-rows: 60px 180px;
+	background-color:black;
+}
+.equalclear>button{
+	font-weight:bold;
+	background-color:black;
+	color:white;
+}
+.equalsbutton{
+	height:160px;
+}
+body{
+}
+button{
+   	border-radius: 5px;
+	justify-self: center;
+	align-self:center;
+	height: 40px;
+	width: 50px;
+}
