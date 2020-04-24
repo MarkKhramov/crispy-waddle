@@ -1,3 +1,7 @@
+@font-face{
+	font-family: 'digital';
+	src: url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+}
 .calculator{
 	display: grid;
 	grid-template-columns: 180px 60px 60px;
@@ -60,4 +64,12 @@ button{
 	align-self:center;
 	height: 40px;
 	width: 50px;
+	outline: 0;
+}
+input{
+	text-align: right;
+	font-size: 30px;
+	font-weight: bold;
+	color: black;
+	font-family:"Roboto", sans-serif;
 }
